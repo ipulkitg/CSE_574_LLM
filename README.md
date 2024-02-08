@@ -1,7 +1,7 @@
-## CSE_574_LLM
+# CSE_574_LLM
 
 
-# Overview
+## Overview
 Welcome to a showcase of my assignment exploring the application of reasoning and planning to enhance Large Language Models (LLMs) in problem-solving. This project focuses on the implementation of the Chain-of-Thought (CoT) method (Wei et al., 2022) to prompt LLMs in solving a series of questions. Additionally, I have implemented standard few-shot and standard zero-shot methods for comparative analysis. The chosen LLM for this task is the powerful 13B open-sourced Llama2.
 
 Implemented Prompting Methods
