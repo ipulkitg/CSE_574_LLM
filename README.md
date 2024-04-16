@@ -1,34 +1,72 @@
-# CSE_574_LLM
 
+# 🧠 Chain-of-Thought Reasoning in LLMs (CSE 574 Assignment)
 
-## Overview
-Welcome to a showcase of my assignment exploring the application of reasoning and planning to enhance Large Language Models (LLMs) in problem-solving. This project focuses on the implementation of the Chain-of-Thought (CoT) method (Wei et al., 2022) to prompt LLMs in solving a series of questions. Additionally, I have implemented standard few-shot and standard zero-shot methods for comparative analysis. The chosen LLM for this task is the powerful 13B open-sourced Llama2.
+## 📘 Overview
 
-Implemented Prompting Methods
-Few-shot CoT (explicit CoT demonstrations)
-Zero-shot CoT (prompting with "Let’s think step by step")
-Standard Few-shot (prompting with examples)
-Standard Zero-shot (prompting without examples)
-Technical Setup: Llama2 in Google Colab
-To begin, I successfully set up the 13B Llama2 LLM in Google Colab. I utilized a provided notebook that installed all required packages and loaded the LLM model. For a step-by-step guide, I followed the video tutorial. The assignment specified the use of the free T4 GPU on Google Colab, and I made sure to provide clear evidence of the successful execution in the submitted .ipynb file.
+This project explores how **reasoning and planning techniques**, specifically the **Chain-of-Thought (CoT)** prompting method, can enhance the problem-solving capabilities of **Large Language Models (LLMs)**. The project applies and compares four prompting strategies on three distinct test cases using the open-source **Llama2-13B** model, deployed on Google Colab.
 
-Testing CoT: Showcasing Problem Solving
-Once Llama2 was deployed successfully, I conducted comprehensive testing of the four prompting methods on three distinct test cases. I performed each test case five times for robust evaluation, calculated the average accuracy for each method, and visually represented the results through insightful bar charts.
+---
 
-Test Case 1 - Math World Problem
-Question:
-"A waiter had 14 customers. If 3 left and 39 more arrived, how many customers would he have?"
+## 🚀 Prompting Methods Implemented
 
-Test Case 2 - Date Understanding Problem
-Question:
-"The concert was scheduled for 06/01/1943 but delayed by one day. What is the date 10 days ago?"
+1. **Few-shot CoT**  
+   → Explicit CoT demonstrations included as part of the prompt.
 
-Test Case 3 - Coinflip Problem
-Question:
-"A coin is heads up. Ka flips the coin. Sherrie flips the coin. Is the coin still heads up?"
+2. **Zero-shot CoT**  
+   → Prompts use “Let’s think step by step” to invoke step-by-step reasoning without examples.
 
-Evaluation and Visualization
-I meticulously evaluated the performance of each prompting method, calculated the average accuracy for each test case, and created visually appealing bar charts to showcase the comparative analysis. The results provide insights into the effectiveness of different prompting strategies.
+3. **Standard Few-shot**  
+   → Direct Q&A examples without intermediate reasoning steps.
 
-Conclusion
-Thank you for exploring this showcase of my work. This assignment reflects my dedication to leveraging cutting-edge technologies for problem-solving and showcases my proficiency in deploying and evaluating large language models. Feel free to reach out for further discussions or collaborations!
+4. **Standard Zero-shot**  
+   → No examples provided; LLM responds directly.
+
+---
+
+## 🧪 Test Cases Used
+
+| Test Case                        | Description                                                                 |
+|----------------------------------|-----------------------------------------------------------------------------|
+| **1. Math Word Problem**         | Evaluates numerical reasoning based on word problem interpretation.         |
+| **2. Date Understanding Problem**| Tests temporal reasoning involving delays and back-dating calculations.     |
+| **3. Coinflip Problem**          | Assesses logical reasoning about state changes across sequential actions.   |
+
+Each test case was run **five times per prompting method**, and the **average accuracy** was calculated for fair comparison.
+
+---
+
+## ⚙️ Technical Setup
+
+- **Model**: Llama2-13B
+- **Platform**: Google Colab (T4 GPU)
+- **Language**: Python (Jupyter Notebook)
+- **Libraries**: Transformers, accelerate, matplotlib, etc.
+
+---
+
+## 📊 Evaluation and Results
+
+Results were analyzed based on average accuracy and visualized using **bar charts** for each test case. These insights help identify which prompting strategies most effectively enable logical reasoning in LLMs.
+
+All testing and visualization steps are clearly documented in the provided `.ipynb` notebook.
+
+---
+
+## 📎 Files Included
+
+- `CSE 574 Assignment 3.ipynb`: Full implementation, LLM outputs, plots.
+- `Pulkit_Client-Centric Consistency_Written.pdf`: Summary of CoT paper + evaluation charts.
+- `README.md`: Project description and setup instructions.
+
+---
+
+## 📌 Conclusion
+
+This project demonstrates the effectiveness of **CoT prompting** in improving the reasoning capabilities of LLMs. By comparing standard prompting methods against CoT-enhanced techniques, we gain insights into how structured reasoning can significantly enhance LLM performance even in small-scale deployments.
+
+---
+
+## 📚 References
+
+- Wei et al., 2022: *Chain-of-thought prompting elicits reasoning in large language models*
+- Kojima et al., 2022: *Large language models are zero-shot reasoners*
