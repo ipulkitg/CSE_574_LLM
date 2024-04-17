@@ -55,7 +55,6 @@ All testing and visualization steps are clearly documented in the provided `.ipy
 ## 📎 Files Included
 
 - `CSE 574 Assignment 3.ipynb`: Full implementation, LLM outputs, plots.
-- `Pulkit_Client-Centric Consistency_Written.pdf`: Summary of CoT paper + evaluation charts.
 - `README.md`: Project description and setup instructions.
 
 ---
