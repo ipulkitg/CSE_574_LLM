@@ -52,13 +52,6 @@ All testing and visualization steps are clearly documented in the provided `.ipy
 
 ---
 
-## 📎 Files Included
-
-- `CSE 574 Assignment 3.ipynb`: Full implementation, LLM outputs, plots.
-- `README.md`: Project description and setup instructions.
-
----
-
 ## 📌 Conclusion
 
 This project demonstrates the effectiveness of **CoT prompting** in improving the reasoning capabilities of LLMs. By comparing standard prompting methods against CoT-enhanced techniques, we gain insights into how structured reasoning can significantly enhance LLM performance even in small-scale deployments.
