@@ -43,15 +43,6 @@ Each test case was run **five times per prompting method**, and the **average ac
 - **Libraries**: Transformers, accelerate, matplotlib, etc.
 
 ---
-
-## 📊 Evaluation and Results
-
-Results were analyzed based on average accuracy and visualized using **bar charts** for each test case. These insights help identify which prompting strategies most effectively enable logical reasoning in LLMs.
-
-All testing and visualization steps are clearly documented in the provided `.ipynb` notebook.
-
----
-
 ## 📌 Conclusion
 
 This project demonstrates the effectiveness of **CoT prompting** in improving the reasoning capabilities of LLMs. By comparing standard prompting methods against CoT-enhanced techniques, we gain insights into how structured reasoning can significantly enhance LLM performance even in small-scale deployments.
